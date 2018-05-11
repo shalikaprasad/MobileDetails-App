@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Lg"
+    tools:showIn="@layout/activity_lg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="1. LG G6"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/lg_g6" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_marginTop="12dp"
+                    android:text="LG G6 smartphone was launched in February 2017. The phone comes with a 5.70-inch touchscreen display with a resolution of 1440 pixels by 2880 pixels at a PPI of 564 pixels per inch.
+
+Qualcomm Snapdragon 821It comes with 4GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 2000GB via a microSD card. As far as the cameras are concerned, the LG G6 packs a 13-megapixel primary camera on the rear and a 5-megapixel front shooter for selfies.
+
+The LG G6 runs Android 7.0 and is powered by a 3300mAh non removable battery. It measures 148.90 x 71.90 x 7.90 (height x width x thickness) and weigh 163.00 grams."
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="2. LG V30+"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/lg_v30plus" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_marginTop="12dp"
+                    android:text="LG V30+ smartphone was launched in August 2017. The phone comes with a 6.00-inch touchscreen display with a resolution of 1440 pixels by 2880 pixels. LG V30+ price in India starts from Rs. 44,990.
+
+The LG V30+ is powered by 1.9GHz octa-core Qualcomm Snapdragon 835 processor and it comes with 4GB of RAM. The phone packs 128GB of internal storage that can be expanded up to 200GB via a microSD card. As far as the cameras are concerned, the LG V30+ packs a 16-megapixel primary camera on the rear and a 5-megapixel front shooter for selfies.
+
+The LG V30+ runs Android 7.1.2 and is powered by a 3300mAh non removable battery. It measures 151.70 x 75.40 x 7.30 (height x width x thickness) and weigh 158.00 grams.
+
+The LG V30+ is a dual SIM (GSM and GSM) smartphone that accepts Nano-SIM and Nano-SIM. Connectivity options include Wi-Fi, GPS, Bluetooth, NFC, USB OTG, Headphones, 3G and 4G (with support for Band 40 used by some LTE networks in India). Sensors on the phone include Proximity sensor, Accelerometer and Ambient light sensor."
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="3. LG V20"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/lg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/lgv20" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_marginTop="12dp"
+                    android:text="LG V20 smartphone was launched in September 2016. The phone comes with a 5.70-inch touchscreen display with a resolution of 1440 pixels by 2560 pixels at a PPI of 513 pixels per inch. LG V20 price in India starts from Rs. 22,990.
+
+The LG V20 is powered by 1.6GHz quad-core Qualcomm MSM8996 Snapdragon 820 processor and it comes with 4GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 2000GB via a microSD card. As far as the cameras are concerned, the LG V20 packs a 16-megapixel primary camera on the rear and a 5-megapixel front shooter for selfies.
+
+The LG V20 runs Android 7.0 and is powered by a 3200mAh removable battery. It measures 159.70 x 78.10 x 7.60 (height x width x thickness) and weigh 174.00 grams.
+
+The LG V20 is a dual SIM (GSM) smartphone that accepts Nano-SIM and Nano-SIM. Connectivity options include Wi-Fi, GPS, Bluetooth, NFC, Infrared, USB OTG, 3G and 4G (with support for Band 40 used by some LTE networks in India). Sensors on the phone include Compass Magnetometer, Proximity sensor, Accelerometer and Gyroscope."
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="4. LG G5"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/lg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/lgg5" />
+            </TableRow>
+
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_marginTop="12dp"
+                    android:text="LG G5 smartphone was launched in February 2016. The phone comes with a 5.30-inch touchscreen display with a resolution of 1440 pixels by 2560 pixels at a PPI of 554 pixels per inch. LG G5 price in India starts from Rs. 24,290.
+
+The LG G5 is powered by 2.15GHz quad-core Qualcomm Snapdragon 820 processor and it comes with 4GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 200GB via a microSD card. As far as the cameras are concerned, the LG G5 packs a 16-megapixel primary camera on the rear and a 8-megapixel front shooter for selfies.
+
+The LG G5 runs Android 6.0.1 and is powered by a 2800mAh removable battery. It measures 149.40 x 73.90 x 7.70 (height x width x thickness) and weigh 159.00 grams.
+
+The LG G5 is a dual SIM (GSM and GSM) smartphone that accepts Nano-SIM and Nano-SIM. Connectivity options include Wi-Fi, GPS, Bluetooth, NFC, Infrared, USB OTG, FM, 3G and 4G (with support for Band 40 used by some LTE networks in India). Sensors on the phone include Compass Magnetometer, Proximity sensor, Accelerometer, Ambient light sensor, Gyroscope and Barometer."
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="5. LG Google Nexus 5X"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/lg5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/lggooglenexus5x" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_marginTop="12dp"
+                    android:text="LG Google Nexus 5X The phone comes with a 5.20-inch touchscreen display with a resolution of 1080 pixels by 1920 pixels at a PPI of 423 pixels per inch. LG Google Nexus 5X price in India starts from Rs. 25,499.
+
+The LG Google Nexus 5X is powered by 1.8GHz hexa-core Qualcomm Snapdragon 808 processor and it comes with 2GB of RAM. The phone packs 16GB of internal storage that cannot be expanded. As far as the cameras are concerned, the LG Google Nexus 5X packs a 12.3-megapixel primary camera on the rear and a 5-megapixel front shooter for selfies.
+
+The LG Google Nexus 5X runs Android 6.0 and is powered by a 2700mAh non removable battery. It measures 147.00 x 72.60 x 7.90 (height x width x thickness) and weigh 136.00 grams.
+
+The LG Google Nexus 5X is a single SIM (GSM) smartphone that accepts a Nano-SIM. Connectivity options include Wi-Fi, GPS, Bluetooth, NFC, USB OTG, 3G and 4G (with support for Band 40 used by some LTE networks in India). Sensors on the phone include Compass Magnetometer, Proximity sensor, Accelerometer, Ambient light sensor, Gyroscope and Barometer."
+                    android:textSize="15dp" />
+            </TableRow>
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

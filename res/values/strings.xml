@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Mobille_Phones</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="title_activity_tab">Tab</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_sign">Sign Up</string>
+    <string name="action_signup">Sign Up</string>
+    <string name="action_location">Location</string>
+    <string name="action_rate">Rate</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_help">Help</string>
+    <string name="mobile_phones">Mobile Phones</string>
+    <string name="accessories">Accessories</string>
+    <string name="information">Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="title_activity_rating">Rating</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_microsoft">Microsoft Phones</string>
+    <string name="title_activity_htc">HTC</string>
+    <string name="title_activity_samsung">Samsung</string>
+    <string name="title_activity_sony">Sony</string>
+    <string name="title_activity_lg">Lg</string>
+    <string name="title_activity_powerbank">Powerbank</string>
+    <string name="htc1">The HTC U11+ takes the core specs of the U11, and expands its display to a 6-inch, 18:9 panel, boost the battery to a whopping 3,930mAh, and packages that all together with a flatter, more grown-up design, with software based on Android 8.0 Oreo. What\'s more, in the UK you\'ll get 6GB of RAM and 128GB of storage as standard, alongside dual SIM functionality. While the U11+ won\'t be coming to the United States, it\'s launching in Europe and Asia, with price tags that compare favorably to other high-end Android \'phablets\' like the Google Pixel 2 XL. Along with a bigger battery, a larger display and three striking color options, the U11+ expands on the U11\'s Edge Sense functionality with new squeeze-enabled features, and swaps on the selfie camera for a new low-light-friendly 8MP shooter. Not everyone will be able to buy it, but if you can, the U11+ is one of the year\'s best big-screened Android phones.</string>
+    <string name="htc2">The HTC U11 reinvents HTC\'s design language with a bold new glass-backed chassis in a range of shimmering colors. And it\'s the first smartphone to include Edge Sense, a new shortcut function that lets you squeeze the sides of the phone to jump quickly into the camera, take a photo, or launch your favorite personal assistant. Aside from gimmicky new features, the U11 is a solid flagship phone with top-tier specs — Snapdragon 835, 4 or 6GB of RAM, 64 or 128GB of storage — and one of the best cameras we\'ve seen on any phone. HTC\'s new Ultrapixel shooter features always-on \'HDR Boost\' post-processing, similar to the Google Pixel\'s HDR+ trickery. Add to that HTC\'s clean, near-stock Sense UI, and you\'ve got one of 2017\'s sleeper hits — and at a price that\'s not quite as painful as many other flagships.</string>
+    <string name="htc3">Available with HTC Sense in the United States through T-Mobile, or with Android One internationally, HTC\'s new mid-level flagship mirrors the design language of its flagships, while downsizing the screen and specs — and most importantly, the price. There\'s a Snapdragon 630 processor running the show, packed into an \'acrylic glass\' exterior with biometric security, a surprisingly decent 16-megapixel rear camera. On the software side, the Android One U11 Life ships with near-stock Android Oreo, while the T-Mo version comes with Nougat and HTC Sense, though with an update to Android 8.0 arriving imminently.</string>
+    <string name="_1_htc_u11">1. HTC U11</string>
+    <string name="_2_htc_u11">2. HTC U11+</string>
+    <string name="_3_htc_11_life">3. HTC 11 Life</string>
+    <string name="todo">TODO</string>
+    <string name="sam1">The Galaxy Note 8 is expensive, but the finest things in life don’t come cheap. This is currently the best Samsung Galaxy phone. If you can stomach the price, we are really taken by the Note 8. Until you see it you’ll find yourself wondering why anyone would choose it over the cheaper Galaxy S8+, but the S Pen alone justifies this price difference. Performance is bang-on, the screen is amazing, and photography is difficult to fault. Even Bixby has shown itself to be anything but the over-hyped, unnecessary feature we feared it could be. Potential downsides are the expensive price tag, a slightly awkward fingerprint scanner and a very tall glass body that is more fragile than metal-body phones.</string>
+    <string name="sam2">Samsung has taken the best phone around and made it even better with an impressive Infinity screen and premium design. It ticks a shedload of boxes - as you\'d expect from a flagship. It\'s one of the best phones of 2017, and is nearly half the price of the iPhone X. But the biometrics are a let down. If you want a slightly larger screen and battery, then the S8+ also gets our approval. Though now, the OnePlus 5T offers staunch competition on specs and price.</string>
+    <string name="sam4">We\'re really impressed by the Galaxy S8 Plus, just as we are with the regular S8. Samsung has done a great job of making last year\'s phones even better. Both offer the infinity edge screen, though you might prefer saving money and going for the regular S8 unless you specifically want the Plus\'s larger display and better battery life. Watching video on the display is an absolute treat, too.</string>
+    <string name="sam5">It isn\'t out till April in the UK, but our hands on time with the A8 was very promising. It is by far the best A-range device to date and effectively the Galaxy S8 mini we always wanted. Samsung has brought the flagship design into a cheaper phone while keeping key features such as the Infinity Display and waterproofing. It\'s an attractive offering, but if you can\'t wait till April and want to spend less, there are plenty of other Galaxy phones.</string>
+    <string name="sam6">Even though the S8 changed the design of the modern smartphone, 2016\'s Galaxy S7 is still one of the best phones Samsung has ever made. Now at just under £400, it is a massive bargain too. You could also opt for the S7 Edge which has a curved display, and only costs a little more. The S7 improved on the S6 in every conceivable way and is still fast and sleek while boasting a camera that is practically the same as the one on the S8. Highly recommended.</string>
+    <string name="_5_samsung_galaxy_s7">5. Samsung Galaxy S7</string>
+    <string name="_4_samsung_galaxy_a8">4. Samsung Galaxy A8</string>
+    <string name="_3_samsung_galaxy_s8_plus">3. Samsung Galaxy S8 Plus</string>
+    <string name="_2_samsung_galaxy_s8">2. Samsung Galaxy S8</string>
+    <string name="_1_samsung_galaxy_note_8">1. Samsung Galaxy Note 8</string>
+    <string name="title_activity_htcphone">HTCPhone</string>
+    <string name="title_activity_blackberry">Blackberry</string>
+    <string name="title_activity_apple">Apple</string>
+    <string name="title_activity_huawei">Huawei</string>
+    <string name="title_activity_wireless__charger">Wireless_Charger</string>
+    <string name="title_activity_charger">Charger</string>
+    <string name="title_activity_backcover">Backcover</string>
+    <string name="title_activity_headset">Headset</string>
+    <string name="title_activity_dre">Dre</string>
+    <string name="title_activity_datacable">Datacable</string>
+    <string name="title_activity_bluetooth__headset">Bluetooth_Headset</string>
+    <string name="title_activity_batteries">Batteries</string>
+    <string name="title_activity_pouch">Pouch</string>
+    <string name="title_activity_memory_card">MemoryCard</string>
+</resources>

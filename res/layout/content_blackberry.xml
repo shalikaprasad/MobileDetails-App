@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Blackberry"
+    tools:showIn="@layout/activity_blackberry">
+
+
+    <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TableRow>
+            <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="17dp"
+            android:text="1. BlackBerry KEYone"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/lumia950" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:text="KEYone is the best BlackBerry phone for years. It has (finally) successfully melded classic BlackBerry design with the necessary mix of Android and nostalgia. Importantly, the latter is only faint this time – this is a device for 2017, not 2007.
+
+If you love your iPhone or Samsung, you’ll hate the KEYone and won’t even consider buying it. But if you’ve made it to the end of this review, chances are you’re weighing up a buy. If you think you’ll love the BlackBerry KEYone, then I’m pretty certain you won’t be disappointed. You’re part of a minority, but finally BlackBerry has a phone for you that doesn’t force you to compromise."
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="2. BlacKBerry DTEK60"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/lumia950" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:text="For the first time in a while, this is a BlackBerry we can recommend to the individual consumer. It is also a business device, but the flexibility of Android means it is versatile enough to be moulded to the needs of both. It marries the Android operating system with robust, easy to use security features and slick design, all for under £500.
+
+It doesn’t have the brand clout of an iPhone or the curved edges of a Samsung Galaxy, but with its admittedly quite straight-faced take on the modern smartphone BlackBerry has just – just – turned a corner. This is an excellent smartphone."
+                android:textSize="15dp" />
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="3. BlackBerry Motion"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/lumia950" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:text="The BlackBerry Motion proves a difficult device to rate. It’s too big, and there’s not much to tempt a casual smartphone buyer here aside from outstanding battery life. It is too austere and clunky even in comparison to the KeyOne, and won’t stand out in the £400 price bracket – a price hangover from the premium leanings of the BlackBerry name.
+
+BlackBerry isn’t a cool brand, but the Motion has a huge battery, a headphone jack and a CPU that will just about cope with what you want it to do besides high level gaming. If the KeyOne was a comeback, the Motion is just about a solid sequel but there are phones like the Moto G5 Plus with similar specs for half the price."
+                android:textSize="15dp" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="4. BlackBerry DTEK50"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/lumia950" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:text="The BlackBerry DTEK50 is a good phone. Above average, even. But we can’t fully recommend it because of the way BlackBerry is marketing it. The perhaps incorrect status quo is that people don’t want to worry about security; they just want a phone that works. Security flaws on huge scales are largely down to external database hacks, not device vulnerabilities. The DTEK50 is a good phone at a good price, but it isn’t different enough to drag BlackBerry back into smartphone relevance."
+                android:textSize="15dp" />
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="5. BlackBerry Priv"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/lumia950" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:text="The BlackBerry Priv is a well-made Android phone with a unique feature set. We commend BlackBerry for turning its hand to being an Android OEM, and the result is a fast smartphone with a great display, hardware keyboard and solid build and design. Battery life could be better, but our main quibble is with the price: at this price the Priv needs to be a world beater. And as good as it is, it isn't that. Still, if you want an Android with a hardware keyboard and some BlackBerry features, this is the phone for you. "
+                android:textSize="15dp" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

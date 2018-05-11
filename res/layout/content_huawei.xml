@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Huawei"
+    tools:showIn="@layout/activity_huawei">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="1. Huawei Mate 9"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/lumia950" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:text="Based on its aggregated ranking of 90%, we determined that the Huawei Mate 9 is currently the best Huawei phone 2018. We also believe that our 810 reviews sampled from our sources give us a high confidence level that justifies to call it a 'no-brainer best choice.'
+
+Huawei's Mate 9 is a 5.9-inch phablet that banks on several premium-class specs, such as a 20-megapixel (monochrome) + 12-megapixel (RGB) dual-rear-camera setup, a 3D fingerprint reader, and a split-eight-core Kirin 960 engine coupled with an i6 co-processor."
+            android:textSize="15dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

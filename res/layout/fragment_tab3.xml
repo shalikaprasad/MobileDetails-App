@@ -1,0 +1,164 @@
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sit11.msprasad.mobille_phones.Tab$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="45dp">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/osimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/osphone" />
+
+                <Button
+                    android:id="@+id/osbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="O/S"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/memoryimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/memorycard" />
+
+                <Button
+                    android:id="@+id/memorybtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Memory Card"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/simimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/sim" />
+
+                <Button
+                    android:id="@+id/simbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="SIM"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/screenimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/screen" />
+
+                <Button
+                    android:id="@+id/screenbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Screen"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/cameraimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/camera" />
+
+                <Button
+                    android:id="@+id/camerabtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Camera"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/batteryimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/batteries" />
+
+                <Button
+                    android:id="@+id/batterybtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Battery"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp">
+
+                <ImageButton
+                    android:id="@+id/bluetoothimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/bluetooth" />
+
+                <Button
+                    android:id="@+id/bluetoothbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Bluetooth H/S"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

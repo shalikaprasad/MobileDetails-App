@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Headset"
+    tools:showIn="@layout/activity_headset">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txthtc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="1. Corsair HS50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txthtc11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="The HS50 is the newest analogue gaming headset from Corsair. Priced under £60, this rather simplistic pair of cans offers great audio playback, decent build quality and a comfortable design.
+
+It doesn’t sport any flashing lights or fancy surround sound like much of the competition, but the HS50 is nevertheless a cracking headset for anyone after an old-school analogue headset.
+
+
+Read more at http://www.trustedreviews.com/reviews/corsair-hs50#rp3Egi4subMuZ5G9.99"
+                android:textSize="15sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+        <TextView
+            android:id="@+id/txthtc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="17dp"
+            android:text="2. Asus ROG Strix Fusion 500"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txthtc22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="If you’re a competitive gamer with a penchant for RGB lighting then the ROG Strix Fusion 500 may well be the headset for you.
+
+As well as having an extrovert gold design with full RGB rimming, the ROG Strix Fusion 500 benefits from advanced synchronisation features that make it quick and easy to sync the lighting of multiple headsets using an intuitive mobile app.
+
+This, plus above average virtual surround sound and a super-comfortable fit, makes the Fusion 500 a great choice for hardcore gamers in a clan or formal e-sports team.
+
+A lack of wireless support and 3.5mm jack will be an issue for Xbox gamers; and with pricing starting at £150, there’s no doubt that the Fusion 500 is expensive. But if you have the money, and want your team looking bling during tournaments and LAN parties, then the Fusion 500 is a fantastic choice.
+
+
+Read more at http://www.trustedreviews.com/guide/best-gaming-headset#patDx1d2h2zvDZoA.99"
+            android:textSize="15sp" />
+    </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txthtc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="3. SteelSeries Arctis 7"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txthtc33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="The SteelSeries Arctis 7 is our favourite gaming headset. Why? Because it’s everything a good headset should be. It’s remarkably comfortable to wear over long periods of time thanks to a clever self-adjusting band, and unlike some competitors, it doesn’t present any nasty side effects as a result.
+
+Using a USB transmitter, the Arctis has excellent battery life and range. Unlike a lot of rivals, the retractable microphone isn’t a weak link, and vocals come across clearly.
+
+Audio quality is sublime regardless of the application, and it’s just as happy with your music library as it is with Battlefield 1. It’s also uses DTS Headphone:X when gaming on a PC, providing an extra sense of space through virtual surround sound.
+
+If you’re a PS4 or PC player and have £150 to spend on a headset, then look no further.
+
+At the time of review, the SteelSeries Arctis 7 was available for £159.99.
+
+
+Read more at http://www.trustedreviews.com/guide/best-gaming-headset#patDx1d2h2zvDZoA.99"
+                android:textSize="15sp" />
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txthtc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="4. HyperX Cloud II"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txthtc44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="The HyperX Cloud II is perhaps the most sensible choice for those looking for a new headset. With an RRP of £75, it’s right at the bang-for-buck sweetspot.
+
+You get a lightweight yet luxurious design that screams quality and is incredibly versatile. Sound quality is excellent for the price, with clear vocals in music, and deep low-end reproduction in games.
+
+The microphone has a large pop filter for clean microphone pick up, and thanks to that optional USB connection, recordings will be free of static interference too.
+
+If you’re after a jack-of-all-trades headset for a reasonable price, the Cloud II is for you.
+
+At the time of review, the HyperX Cloud II was available for £74.99.
+
+
+Read more at http://www.trustedreviews.com/guide/best-gaming-headset#patDx1d2h2zvDZoA.99"
+                android:textSize="15sp" />
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txthtc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="5. HyperX Cloud Stinger"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txthtc55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Not everyone wants to spend a huge amount on a headset. Fortunately, HyperX has you covered with the Stinger.
+
+The build is a little plasticky, but it’s strong and fairly lightweight. It’s comfortable to wear too, thanks to the Stinger’s faux-leather and memory foam earcups.
+
+Gamers will love the audio performance, with a rich sound that isn’t cut back or otherwise compromised. Gunfire is delivered with weight, along with a top-end that never seems to fall apart. The microphone works surprisingly well, too, and it even mutes itself when retracted.
+
+For its price, you’d find it very difficult to do better than the HyperX Stinger.
+
+At the time of review, the HyperX Stinger was available for £49.99.
+
+
+Read more at http://www.trustedreviews.com/guide/best-gaming-headset#patDx1d2h2zvDZoA.99"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Wireless_Charger"
+    tools:showIn="@layout/activity_wireless__charger">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="1. CHOETECH Fast Wireless Charger"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+
+            <TableRow></TableRow>
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="2. Best Charging Speed: Pasonomi"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="If time is of the essence, the Pasonomi fast wireless charger is well worth the purchase. Offering Qi 2.0 fast wireless charging (QC 2.0 adapter required), the Pasonomi can power a Samsung Galaxy device from dead to fully powered in around two hours. That’s a full 1.4 times faster than a standard Qi-enabled charging pad. Like all Qi-ready fast chargers, a Qi-enabled device is required (which includes Samsung’s latest Galaxy S8 device), as well as previous Galaxy series devices. Non-fast-charge enabled devices still receive the benefit of wireless charging, but at the default charge speed. Past its power, the design of the Pasonomi is eye-catching, with both vertical and horizontal charging support while still allowing active use of the device. Additionally, an intelligent LED indicator indicates the current charge status, so you'll always know when the device is ready for removal."
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="3. Best Budget: Kroma"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="The Kroma wireless charging pad measures 3 x 3.7 x 1.1 inches and includes support for Qi-enabled devices. The lightweight (10.1 ounces) and minimal footprint is backed by a durable design and an excellent exclusive lifetime warranty. The lack of fast-charging helps keep the cost down, but also means the Kroma won’t offer two times the normal charge speed for Qi-enabled devices. The included LED indicator tells you the charging status, while the diamond-shaped rubber dots ensure the phone is positioned correctly for a complete charge."
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="4. Runner-Up, Best Budget: Choetech T511 Qi Wireless Charger Pad"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="If wireless charging on the cheap is the name of the game, the Choetech T511 Qi Wireless Charger Pad is a perfect choice. Powered by a two-amp charging speed, the Choetech helps keep costs down by not including a wall charging plug or cable, instead relying on using the accessories that initially came with your device. A solid blue indicator alerts you when a device is properly placed on the pad and has begun charging. Available for a slew of Qi-enabled Android devices such as the Galaxy Note 8 and Galaxy S7/S8, the Choetech also works with the iPhone 8, 8 Plus and iPhone X. Unfortunately, fast charging isn’t included, although the T511 will charge your devices at the same speed as a cable charger. If you’re already utilizing a case on your smartphone, the T511 can wirelessly charge any device in a 4mm case or thinner without issue."
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="5. Best iPhone Charger: ElleSye 3-Coil Qi Wireless Charger Stand Pad"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="For the best in wireless iPhone charging, look to the ElleSye 3-Coil Qi Wireless Charger Stand Pad. Capable of working with the iPhone 8, 8 Plus and iPhone X, the ElleSye’s three built-in coils provide a larger sensor area and easier alignment on the standing pad than other wireless chargers. Setting up the wireless charging on the iPhone is incredibly simple. Just place your device on the stand and voila, it starts charging. While the speed may not be fast charging, the Qi-enabled charger works with a variety of other devices, including Samsung’s Note 8 and S8 series phones. The hardware offers non-slip feet on the bottom and a non-slip mat in the front to hold a device firmly in place while in use. The 60-degree angle allows you to easily view the display, answer a call or view a movie hands-free."
+                    android:textSize="15dp" />
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="When trying to find the best overall wireless charger for your phone(s), you should look for it to have the latest features and broad compatibility at a reasonable price. Look no further than the CHOETECH Fast Wireless Charger.
+
+This charger stands upright and offers a wide charging area, so you can place your phone in landscape or portrait while charging it. It also includes a micro-USB cable. Now, let’s talk Fast Charging Mode, which lets you charge many of the newest Samsung phones at 1.4 times faster than regular Qi wireless charging. Fast charge mode on the CHOETECH charger works with the Samsung Galaxy S8 and S8 Plus, Note 5, S6, S7 and S7 Edge and Edge Plus. Non-fast charging models that this charger works include the Samsung Galaxy S6, Galaxy S6 Edge, Nexus 5 and Nexus 6.
+
+One final note: If you’re buying this charger for the “fast wireless charging” option, be sure to also use it with a modern USB adapter that can push more electricity (up to 2.4 amps) and ensure the quickest possible charging time. Older USB adapters can’t push enough electricity to charge at the fastest rates."
+        android:textSize="15dp" />
+</ScrollView>

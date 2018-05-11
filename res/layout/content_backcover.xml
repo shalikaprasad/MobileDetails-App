@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Backcover"
+    tools:showIn="@layout/activity_backcover">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="1. Slim Cases:"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="These are usually plastic or rubber and are the  most common and wanted phone case in town. No really. In town, like, on the streets. They are cheap and colourful and full of personality so most people go for them as a way of self expression. They’re good because they’re shock absorbent and are easy to slide into pockets. This type of phone case is bad because they are not durable, they may crack if made from hard plastic and they’re not waterproof so your phone is not protected from that element."
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="2. Folio Cases:"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="This is a more stylish kind of phone case because it’s made from leather (real or fake) and can act as a wallet. They cover the front of your phone ad well so that’s added protection. Others even come with a harder shell case inside that protects your phone some more. The bad part is sometimes the phone case will not cover all the sides so you’re not fully covered from things like water and dust entering the tiny ports that may be on the sides of your phone."
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="3. Rugged Cases:"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Getting straight to the bad part, these phone cases are heavy and bulky, making a naturally slim phone look like a brick. They may also make it hard to reach certain buttons on your phone, especially in the sides. However they add grip to your hold, even of your hands are wet. They may be made of hard rubber so they provide some kind of waterproofing ability."
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="4. Flip Cases:"
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="These are the ones that can act as stands for your phone and are most commonly used with tablets. They have a flip cover like Folio cases but the cover can bend in ways that allow the device to stand upright, almost converting it into a desktop PC, just smaller. Some come with facilities to dock a keypad that can be used as an alternative for most touch screen devices to give you a laptop experience."
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="5. Tough Cases: "
+                    android:textSize="20dp"
+                    android:textAppearance="@android:style/TextAppearance.Medium" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text=" These, as their name suggests, are tough for real! They are made of very tough plastic that feels almost unbreakable. Imagine them as a harder version of the plastic ones. They are sometimes hard to clasp on but once on, you have no worries about them. However, they are also bulky and may be difficult to fit into your pocket sometimes. You have to wiggle them in. The cool thing is that they can have a personality too, like the ones in the picture above, so you can be spoilt for choice."
+                    android:textSize="15dp" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>

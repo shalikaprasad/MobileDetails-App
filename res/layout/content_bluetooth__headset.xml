@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Bluetooth_Headset"
+    tools:showIn="@layout/activity_bluetooth__headset">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="1. VXi BlueParrott S450-XT"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Long battery life. Wired and wireless options. Excellent outbound noise cancellation.
+                    The VXi BlueParrott S450-XT Bluetooth headset delivers decent stereo music performance with excellent outbound sound quality for over a day's worth of use."
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+            <TextView
+                android:id="@+id/txthtc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="2. Plantronics Voyager Edge Review"
+                android:textSize="20sp" />
+        </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Excellent call quality. Easy pairing using NFC. Charging cradle included. Solid battery life given its size.
+The Plantronics Voyager Edge Bluetooth headset cuts the bulk of its predecessors without sacrificing superlative call quality."
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="3. Plantronics Voyager Focus UC Review"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Very comfortable. Long battery life. Excellent voice quality. Balanced sound signature for music.The Plantronics Voyager Focus UC Bluetooth headset combines quality music playback with fantastic voice quality and unrivaled comfort."
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="4. Beats BeatsX"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Powerful audio performance with rich bass and clear highs. Includes W1 chip for fast, seamless connection with iOS devices. Excellent wireless range.
+The BeatsX Bluetooth earphones from Beats deliver strong audio performance and excellent wireless connectivity, aided by Apple's W1 chip."
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="5. Plantronics Voyager 5200 Review"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Long battery life. Won't fall off your ear. Long range. Built-in voice commands. Completely reversible. Solid noise cancellation.
+The Plantronics Voyager 5200 headset continues to set the standard for Bluetooth voice quality, but this model is a little less comfortable than previous generations."
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>

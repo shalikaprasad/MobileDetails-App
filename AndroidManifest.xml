@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sit11.msprasad.mobille_phones">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:icon="@mipmap/phoneicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tab"
+            android:label="@string/title_activity_tab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Rating"
+            android:label="@string/title_activity_rating"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Samsung"
+            android:label="@string/title_activity_samsung"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Sony"
+            android:label="@string/title_activity_sony"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Lg"
+            android:label="@string/title_activity_lg"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Powerbank"
+            android:label="@string/title_activity_powerbank"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Microsoft"
+            android:label="@string/title_activity_microsoft"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".HTCPhone"
+            android:label="@string/title_activity_htcphone"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Blackberry"
+            android:label="@string/title_activity_blackberry"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Apple"
+            android:label="@string/title_activity_apple"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Huawei"
+            android:label="@string/title_activity_huawei"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Wireless_Charger"
+            android:label="@string/title_activity_wireless__charger"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Charger"
+            android:label="@string/title_activity_charger"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Backcover"
+            android:label="@string/title_activity_backcover"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Headset"
+            android:label="@string/title_activity_headset"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Dre"
+            android:label="@string/title_activity_dre"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Datacable"
+            android:label="@string/title_activity_datacable"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Bluetooth_Headset"
+            android:label="@string/title_activity_bluetooth__headset"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Batteries"
+            android:label="@string/title_activity_batteries"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".Pouch"
+            android:label="@string/title_activity_pouch"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity
+            android:name=".MemoryCard"
+            android:label="@string/title_activity_memory_card"
+            android:parentActivityName=".Tab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sit11.msprasad.mobille_phones.Tab" />
+        </activity>
+        <activity android:name=".SignActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

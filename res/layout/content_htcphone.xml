@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.HTCPhone"
+    tools:showIn="@layout/activity_htcphone">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txthtc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/_1_htc_u11"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/htc1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/htcu11" />
+        </TableRow>
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txthtc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/htc2"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/texthtc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/_2_htc_u11"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/htc2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/htcu11plus" />
+        </TableRow>
+
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/texthtc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/htc1"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/texthtc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/_3_htc_11_life"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/htc3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/htcu11life" />
+        </TableRow>
+
+
+
+
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/texthtc6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/htc3"
+                android:textSize="15sp" />
+        </TableRow>
+
+
+    </TableLayout>
+</RelativeLayout>
+</ScrollView>

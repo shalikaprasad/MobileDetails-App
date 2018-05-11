@@ -1,0 +1,263 @@
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sit11.msprasad.mobille_phones.Tab$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/powerimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/power" />
+
+                <Button
+                    android:id="@+id/powerbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Power Bank"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/chargerimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/charger" />
+
+                <Button
+                    android:id="@+id/chagerbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Charger"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/holderimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/holder" />
+
+                <Button
+                    android:id="@+id/holderbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Car Holder"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/wirelessimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/wirelesscharger" />
+
+                <Button
+                    android:id="@+id/wirelessbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Wireless Charger"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/coverimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/backcover" />
+
+                <Button
+                    android:id="@+id/coverbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Back Cover"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/headsetimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/headset" />
+
+                <Button
+                    android:id="@+id/headsetbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Headsets"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/dreimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/dre" />
+
+                <Button
+                    android:id="@+id/drebtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Dr.Dre"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/cableimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/datacable" />
+
+                <Button
+                    android:id="@+id/cablebtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Data Cable"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/bluetoothimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/bluetooth" />
+
+                <Button
+                    android:id="@+id/bluetoothbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Bluetooth Headsets"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/batteriesimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/batteries" />
+
+                <Button
+                    android:id="@+id/batteriesbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Batteries"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/pouchimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/pouch" />
+
+                <Button
+                    android:id="@+id/pouchbtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Pouches"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/memoryimg"
+                    android:layout_width="115dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/memorycard"
+                    android:layout_marginBottom="50dp"/>
+
+                <Button
+                    android:id="@+id/memorybtn"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:text="Memory Cards"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="50dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

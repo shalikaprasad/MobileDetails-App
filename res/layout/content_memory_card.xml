@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.MemoryCard"
+    tools:showIn="@layout/activity_memory_card">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="1. Apple W1 Chip"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Beats and Apple are changing the way you listen to music with the introduction of Apple W1 technology in Powerbeats3 Wireless. Incorporating the incredible W1 chip brings seamless setup and switching for your Apple devices*, amazing battery life and 5-minute Fast Fuel charging.
+
+*Requires iCloud account and macOS Sierra, iOS 10, watchOS 3 or later versions.
+
+Keep the hours of training coming as Powerbeats3 Wireless are now powered for the long haul with the efficiency of the Apple W1 technology, which brings 12 hours of battery life, 5-minute Fast Fuel, and seamless setup and switching for your Apple devices."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="2. Apple W1 Chip"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Beats and Apple are changing the way you listen to music with the introduction of Apple W1 technology in Powerbeats3 Wireless. Incorporating the incredible W1 chip brings seamless setup and switching for your Apple devices*, amazing battery life and 5-minute Fast Fuel charging.
+
+*Requires iCloud account and macOS Sierra, iOS 10, watchOS 3 or later versions.
+
+Keep the hours of training coming as Powerbeats3 Wireless are now powered for the long haul with the efficiency of the Apple W1 technology, which brings 12 hours of battery life, 5-minute Fast Fuel, and seamless setup and switching for your Apple devices."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="3. Apple W1 Chip"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Beats and Apple are changing the way you listen to music with the introduction of Apple W1 technology in Powerbeats3 Wireless. Incorporating the incredible W1 chip brings seamless setup and switching for your Apple devices*, amazing battery life and 5-minute Fast Fuel charging.
+
+*Requires iCloud account and macOS Sierra, iOS 10, watchOS 3 or later versions.
+
+Keep the hours of training coming as Powerbeats3 Wireless are now powered for the long haul with the efficiency of the Apple W1 technology, which brings 12 hours of battery life, 5-minute Fast Fuel, and seamless setup and switching for your Apple devices."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="4. Apple W1 Chip"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Beats and Apple are changing the way you listen to music with the introduction of Apple W1 technology in Powerbeats3 Wireless. Incorporating the incredible W1 chip brings seamless setup and switching for your Apple devices*, amazing battery life and 5-minute Fast Fuel charging.
+
+*Requires iCloud account and macOS Sierra, iOS 10, watchOS 3 or later versions.
+
+Keep the hours of training coming as Powerbeats3 Wireless are now powered for the long haul with the efficiency of the Apple W1 technology, which brings 12 hours of battery life, 5-minute Fast Fuel, and seamless setup and switching for your Apple devices."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="5. Apple W1 Chip"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Beats and Apple are changing the way you listen to music with the introduction of Apple W1 technology in Powerbeats3 Wireless. Incorporating the incredible W1 chip brings seamless setup and switching for your Apple devices*, amazing battery life and 5-minute Fast Fuel charging.
+
+*Requires iCloud account and macOS Sierra, iOS 10, watchOS 3 or later versions.
+
+Keep the hours of training coming as Powerbeats3 Wireless are now powered for the long haul with the efficiency of the Apple W1 technology, which brings 12 hours of battery life, 5-minute Fast Fuel, and seamless setup and switching for your Apple devices."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>

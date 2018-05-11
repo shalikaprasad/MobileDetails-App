@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sit11.msprasad.mobille_phones.Datacable"
+    tools:showIn="@layout/activity_datacable">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="1. USB Type-C cables to keep your gadgets powered"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="The shift toward USB Type-C cables is well underway, and with good reason. Thanks to a reversible connector, you can finally wave goodbye to the frustration of plug in failures because your cable is in the wrong orientation. With USB-C, you can also potentially benefit from the latest speed boosts that the USB 3.1 standard brings. Almost every Android smartphone, such as Google’s Pixel phones, Samsung’s Galaxy S8, and the LG G6 sport the new port.
+
+Devices generally ship with a cable, but they sometimes break or go missing from time to time, and it’s always handy to have a spare or two. You may also want a USB Type-C cable to attach to one of your older chargers or devices. If so, below are the USB Type-C cables we personally recommend."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="2. STK Binary 3"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="USB Type-C, MicroUSB, Lightning connectors
+Quick charge: Yes, Quick Charge 2.0
+Length: 1 meter
+Warranty: 5 years, Apple Certified
+Price: $40
+The USB Type-C connection is still new, so there are still a number of devices not using it yet, which means you (or your friends) probably have various devices that use a MicroUSB or Lightning connector to charge. Carrying many cables around with you isn’t practical, but the STK Binary 3 gives the best of all three worlds, in one handy cable. The central MicroUSB connector can quickly be converted into a USB Type-C or Apple Lightning connector, and the braided cable itself is super hardwearing, making this a cable suitable for all devices and all situations."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="3. Ravpower C to C Cable"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Quick charge: Yes
+Length: 6.6 feet
+Warranty: 12 months
+Price: $11
+This cable is a great value and offers rapid charging or syncing between two USB Type-C devices. That means you can use it to plug your Pixel smartphone into your new Macbook, or connect it to the USB-C brick that ships with Google’s phone. It’s a strong cable with solid, anodized-aluminum casing on the connectors. It supports fast charging, too, so you should be able to get maximum charging speeds for a range of phones. Syncing data is also extremely fast with this cable."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="4. iOrange-E USB 2.0 C to C Braided Cable"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Quick charge: Yes
+Length: 6.6 feet
+Warranty: 12 months
+Price: $14
+This nylon-braided cable is strong and sure to stay tangle-free. It’s another cable for hooking up Type-C to Type-C connections. It should support fast charging for most phones — delivering up to 3A — and it can also handle data syncing at up to 480 Mbps. If you don’t like the gold finish, the cable is also available in either black or silver."
+
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="5. Google USB-C to USB-C Cable"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txthtc55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Quick charge: Yes
+Length: 6 feet
+Warranty: 12 months
+Price: $25
+Google offers a no-frills cable that’s a little more expensive than some of the others on the list. It has reinforced, rubbery plugs with a tapered neck. It can deliver up to 60W at 3A, so fast charging won’t be a problem. Data sync speeds are USB 2.0, so you’ll get up to 480 Mbps.
+
+This specific offering is a USB-C to USB-C cable, but the same price will net you a USB-C to USB-A cable. Charging speeds will vary depending on your device and charger, but it supports USB 3.1 for data transfers at up to 10 Gbps."
+
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>
